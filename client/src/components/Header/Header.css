@@ -1,0 +1,45 @@
+header {
+  /* margin: 3rem 3rem; */
+  width: 100%;
+  background-color: antiquewhite;
+}
+.header-container {
+  max-width: 1152px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+  margin: 0 5rem;
+}
+.header-logo__h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  letter-spacing: 2px;
+}
+
+.logo-span {
+  font-weight: 500;
+  color: slategray;
+}
+.logo-span__child {
+  font-weight: 700;
+  color: rgb(24, 116, 207);
+}
+
+
+.header-form{
+    background-color: azure;
+    /* border: 4px solid red; */
+    padding: 13px 33px;
+    border-radius: 7px;
+}
+
+.header-form__input{
+    background: transparent;
+    outline: none;
+    border: none;
+    /* background-color: azure; */
+}

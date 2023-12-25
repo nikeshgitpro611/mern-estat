@@ -1,8 +1,8 @@
-const mongoose = require("mongoose");
+import mongoose from 'mongoose';
 
 const userSchema = new mongoose.Schema(
   {
-    uasename: {
+    username: {
       type: String,
       required: true,
       unique: true,
@@ -12,7 +12,7 @@ const userSchema = new mongoose.Schema(
       required: true,
       unique: true,
     },
-    passoword: {
+    password: {
       type: String,
       required: true,
     },
